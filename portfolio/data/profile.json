@@ -1,0 +1,35 @@
+{
+  "name": "Your Name",
+  "age": "20",
+  "role": "full-stack developer • designer",
+  "tagline": "Build what you wish existed.",
+  "bio": "**I build things from scratch.** Frontend, backend, or the whole product, I like taking an idea all the way from a sketch to something people can open in a browser. Replace this paragraph with two or three sentences about you.",
+  "location": "India",
+  "email": "you@example.com",
+  "github": "your-github-username",
+  "socials": {
+    "github": "https://github.com/your-github-username",
+    "twitter": "https://x.com/your-handle",
+    "linkedin": "https://linkedin.com/in/your-handle",
+    "resume": "#"
+  },
+  "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Python", "MongoDB", "PostgreSQL", "MySQL", "Git", "Tailwind CSS"],
+  "projects": [
+    { "title": "Project One", "description": "One or two lines on what it does and why you built it.", "tags": ["React", "Node.js", "MongoDB"], "live": "#", "repo": "#" },
+    { "title": "Project Two", "description": "Another project. Mention the problem it solves.", "tags": ["Express", "PostgreSQL"], "live": "#", "repo": "#" },
+    { "title": "Project Three", "description": "A smaller experiment, tool or clone you're proud of.", "tags": ["HTML", "CSS", "JavaScript"], "live": "#", "repo": "#" },
+    { "title": "Project Four", "description": "Something you shipped for a friend, club or class.", "tags": ["Python", "Flask"], "live": "#", "repo": "#" }
+  ],
+  "learning": [
+    { "title": "System Design", "note": "Load balancers, caching, queues", "progress": 25, "status": "In progress" },
+    { "title": "TypeScript", "note": "Moving my projects over", "progress": 60, "status": "In progress" },
+    { "title": "Docker & CI/CD", "note": "Containerise and auto-deploy this site", "progress": 10, "status": "In progress" },
+    { "title": "Rust", "note": "Just for fun", "progress": 0, "status": "Up next" }
+  ],
+  "leetcode": {
+    "username": "your-leetcode-username",
+    "solved": 0, "easy": 0, "medium": 0, "hard": 0,
+    "totalEasy": 900, "totalMedium": 1900, "totalHard": 850,
+    "ranking": null
+  }
+}

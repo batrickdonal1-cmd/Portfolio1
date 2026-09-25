@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <meta name="description" content="Personal portfolio">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✦</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+
+  <!-- Banner: pixel-style mountains drawn in SVG (swap for your own image in style.css) -->
+  <header class="banner" aria-hidden="true">
+    <svg viewBox="0 0 640 160" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#7fb3d5"/><stop offset="1" stop-color="#cfe4ee"/>
+        </linearGradient>
+      </defs>
+      <rect width="640" height="160" fill="url(#sky)"/>
+      <path d="M0 110 L90 50 L130 78 L200 20 L280 90 L340 44 L420 96 L500 34 L580 84 L640 60 V160 H0Z" fill="#dfe9ef"/>
+      <path d="M0 122 L70 84 L140 112 L220 70 L300 116 L380 80 L460 118 L540 78 L640 112 V160 H0Z" fill="#5b8a72"/>
+      <path d="M0 140 L60 118 L120 138 L200 112 L280 140 L360 116 L440 140 L520 114 L600 138 L640 126 V160 H0Z" fill="#2f5d46"/>
+      <g fill="#1f4534">
+        <path d="M20 160 l10-34 l10 34z M52 160 l12-42 l12 42z M96 160 l9-30 l9 30z M150 160 l12-40 l12 40z M210 160 l10-34 l10 34z M330 160 l12-40 l12 40z M410 160 l9-30 l9 30z M480 160 l12-42 l12 42z M560 160 l10-34 l10 34z M610 160 l9-30 l9 30z"/>
+      </g>
+    </svg>
+    <p class="tagline" id="tagline"></p>
+  </header>
+
+  <section class="hero">
+    <div class="avatar" id="avatar" aria-hidden="true"></div>
+    <div class="hero-row">
+      <div>
+        <h1 id="name"></h1>
+        <p class="meta" id="role"></p>
+      </div>
+      <nav class="icons" id="icons" aria-label="Social links"></nav>
+    </div>
+    <p class="bio" id="bio"></p>
+  </section>
+
+  <section class="block" id="projects">
+    <h2>Projects</h2>
+    <div class="grid" id="projectGrid"><p class="empty">Loading projects…</p></div>
+  </section>
+
+  <section class="block" id="learning">
+    <h2>Going to learn</h2>
+    <ul class="learn" id="learnList"><li class="empty">Loading…</li></ul>
+  </section>
+
+  <section class="block" id="leetcode">
+    <h2>LeetCode</h2>
+    <div class="lc" id="lc"><p class="empty">Loading stats…</p></div>
+  </section>
+
+  <section class="block" id="github">
+    <h2 id="ghTitle">GitHub contributions</h2>
+    <div class="gh" id="gh"></div>
+  </section>
+
+  <section class="block" id="stack">
+    <h2>Stack I use</h2>
+    <p class="sub">Technologies I work with to build products that solve real problems.</p>
+    <ul class="chips" id="chips"></ul>
+  </section>
+
+  <section class="block" id="contact">
+    <h2>Say hello</h2>
+    <p class="sub">Have an idea, an internship or just a question? Send a message and I'll reply by email.</p>
+    <form id="contactForm" novalidate>
+      <div class="row">
+        <label>Name<input name="name" autocomplete="name" required maxlength="100"></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required maxlength="200"></label>
+      </div>
+      <label>Message<textarea name="message" rows="4" required maxlength="2000"></textarea></label>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="form-foot">
+        <button type="submit" id="sendBtn">Send message</button>
+        <p id="formMsg" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+  </section>
+
+  <footer class="foot">
+    <p class="find">Find me on these platforms</p>
+    <nav class="pills" id="pills"></nav>
+    <div class="legal">
+      <span id="copy"></span>
+      <span id="visits"></span>
+    </div>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
