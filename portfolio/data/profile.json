@@ -1,16 +1,16 @@
 {
-  "name": "Your Name",
-  "age": "20",
+  "name": "Batrick Donal",
+  "age": "18",
   "role": "full-stack developer • designer",
   "tagline": "Build what you wish existed.",
   "bio": "**I build things from scratch.** Frontend, backend, or the whole product, I like taking an idea all the way from a sketch to something people can open in a browser. Replace this paragraph with two or three sentences about you.",
   "location": "India",
-  "email": "you@example.com",
-  "github": "your-github-username",
+  "email": "batrickdonal1@gmail.com",
+  "github": "batrickdonal1-cmd",
   "socials": {
-    "github": "https://github.com/your-github-username",
-    "twitter": "https://x.com/your-handle",
-    "linkedin": "https://linkedin.com/in/your-handle",
+    "github": "https://github.com/batrickdonal1-cmd",
+    "twitter": "https://x.com/BatrickDdd",
+    "linkedin": "https://www.linkedin.com/in/batrick-donal-2b4936426/",
     "resume": "#"
   },
   "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Python", "MongoDB", "PostgreSQL", "MySQL", "Git", "Tailwind CSS"],
